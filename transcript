@@ -1,0 +1,43 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project my_project
+# reading D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project my_project
+# Compile of half_add_lab1.v was successful.
+vsim -gui -t ps work.half_add
+# vsim -gui -t ps work.half_add 
+# Loading work.half_add
+add wave  \
+sim:/half_add/C
+add wave sim:/half_add/*
+do C:/Users/Sasha/Downloads/Stim.do
+# ** Error: (vish-4008) Object 'A' not found.
+# Error in macro C:\Users\Sasha\Downloads\Stim.do line 1
+# ** Error: (vish-4008) Object 'A' not found.
+# 
+#     while executing
+# "force A 0 0ns, 0 20ns, 1 40ns, 1 60ns"
+run -all
+# Break key hit 
+do C:/Users/Sasha/Downloads/Stim.do
+run -all
+run -all
+# Break key hit 
+run -all
+run -all
+quit -sim
+vsim -gui -t ps work.half_add
+# vsim -gui -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/Sasha/Downloads/Stim.do
+run -all
+run
+run -all
+quit -sim
+vsim -gui -t ps work.half_add
+# vsim -gui -t ps work.half_add 
+# Loading work.half_add
+# Load canceled
+do C:/Users/Sasha/Downloads/Stim.do
+add wave sim:/half_add/*
+run -all
